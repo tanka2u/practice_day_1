@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Information</title>
+  </head>
+  <body>
+    <form action="/submit" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Enter your name" /><br /><br />
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="xyz@email.com" /> <br /><br />
+      <label for="sub">Subjects</label>
+      <select name="sub">
+        <optgroup label="Management">
+          <option value="Eco">Economics</option>
+          <option value="Fin">Finance</option>
+          <option value="Aud">Audit</option>
+        </optgroup>
+        <optgroup label="Science">
+          <option value="Bio">BIO</option>
+          <option value="phy">Physics</option>
+          <option value="ch">Chemistry</option>
+        </optgroup>
+      </select>
+      <br />
+      <br />
+      <textarea
+        rows="5"
+        cols="30"
+        placeholder="Please write message"
+      ></textarea>
+      <br /><br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

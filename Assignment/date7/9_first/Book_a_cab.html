@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book a Cab</title>
+  </head>
+  <body>
+    <form action="/submit" method="POST">
+      <h3>Enter pickup location</h3>
+      <input type="search" placeholder="Enter pickup address..." /><br /><br />
+      <input type="search" placeholder="Enter drop address" /><br /><br />
+      <input type="date" /><br /><br />
+      <input type="time" /><br /><br />
+      <p>Please choose your Ride mode</p>
+      <input type="radio" id="bike" value="bike" />
+      <label for="bike">Bike</label><br />
+
+      <input type="radio" id="auto" value="auto" />
+      <label for="auto">Auto</label><br />
+
+      <input type="radio" id="cab" value="cab" />
+      <label for="cab">Cab</label><br /><br />
+      <button type="submit">Search</button>
+    </form>
+  </body>
+</html>
